@@ -1,0 +1,22 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #2b2b2b 0%, #000000 100%); 
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: white; 
+
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
