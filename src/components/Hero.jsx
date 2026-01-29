@@ -49,7 +49,7 @@ const Hero = () => {
                         </p>
 
                         <div className='flex flex-col sm:flex-row gap-6 w-full sm:w-auto mb-12 justify-center lg:justify-start' data-aos='fade-up' data-aos-delay='400'>
-                            <a href="/CV-YustinusDWi.pdf" download className='w-full sm:w-auto group'>
+                            <a href="https://drive.google.com/drive/folders/1Kq03SrIwpVAHBOOp7MoGn_fEswEbfy1C?usp=drive_link" download className='w-full sm:w-auto group'>
                                 <button className="w-full sm:w-auto relative px-8 py-4 rounded-full bg-gradient-to-r from-orange-500 to-amber-600 text-white font-bold shadow-lg shadow-orange-500/25 transition-all duration-300 hover:shadow-orange-500/50 hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-2 overflow-hidden">
                                     <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
                                     <DownloadIcon className='w-5 h-5 relative z-10' />
