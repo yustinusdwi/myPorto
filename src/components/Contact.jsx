@@ -75,6 +75,7 @@ const Contact = () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                 >
+                    <span className="text-gray-400 text-xs sm:text-sm uppercase tracking-widest font-bold"></span>
                     <span className="text-gray-400 text-xs sm:text-sm uppercase tracking-widest font-bold">Follow Me</span>
                     <div className="flex flex-wrap justify-center gap-6">
                         {socialLinks.map((social, index) => (

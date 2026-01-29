@@ -38,14 +38,14 @@ const WorkExperience = () => {
     ];
 
     return (
-        <section id="workexperience" className="py-24 sm:py-36 bg-[#09090b] relative overflow-hidden flex items-center justify-center min-h-screen">
+        <section id="workexperience" className="py-32 sm:py-48 bg-[#09090b] relative overflow-hidden flex items-center justify-center min-h-screen">
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-20">
                 <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-emerald-500/20 rounded-full blur-[120px]" />
                 <div className="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-sky-500/20 rounded-full blur-[120px]" />
             </div>
 
             <div className="container mx-auto px-4 sm:px-6 lg:px-20 max-w-6xl relative z-10">
-                <div className="flex flex-col items-center justify-center text-center mb-16 sm:mb-24" data-aos="fade-up">
+                <div className="flex flex-col items-center justify-center text-center mb-20 sm:mb-28" data-aos="fade-up">
                     <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold mb-6 text-white tracking-tight">
                         Work <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-sky-400">Experience</span>
                     </h1>
@@ -58,13 +58,13 @@ const WorkExperience = () => {
                     {experiences.map((job, index) => (
                         <div 
                             key={index}
-                            className="group relative p-6 sm:p-8 rounded-3xl bg-zinc-900/50 border border-zinc-800 hover:border-emerald-500/50 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-[0_10px_40px_-10px_rgba(16,185,129,0.2)]"
+                            className="group relative p-6 sm:p-8 rounded-3xl bg-zinc-900/50 border border-zinc-800 hover:border-emerald-500/50 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-[0_10px_40px_-10px_rgba(16,185,129,0.2)] flex flex-col h-full"
                             data-aos="fade-up"
                             data-aos-delay={100 + (index * 50)}
                         >
                             <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-3xl" />
                             
-                            <div className="relative z-10">
+                            <div className="relative z-10 flex flex-col flex-grow">
                                 <div className="flex flex-col sm:flex-row justify-between items-start mb-6 gap-4 sm:gap-0">
                                     <div className="flex items-center gap-4">
                                         <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-white p-2 border border-zinc-700 flex items-center justify-center shadow-inner group-hover:scale-105 transition-transform duration-300 flex-shrink-0">
@@ -98,7 +98,7 @@ const WorkExperience = () => {
                                     </div>
                                 </div>
 
-                                <p className="text-zinc-400 leading-relaxed mb-6 text-sm sm:text-base">
+                                <p className="text-zinc-400 leading-relaxed mb-6 text-sm sm:text-base flex-grow">
                                     {job.description}
                                 </p>
 
@@ -117,7 +117,7 @@ const WorkExperience = () => {
                                     href="https://www.linkedin.com/in/yustinus-dwi-adyra-924295247/" 
                                     target="_blank" 
                                     rel="noopener noreferrer"
-                                    className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-zinc-800 hover:bg-emerald-600 text-white font-medium transition-all duration-300 group/btn text-sm sm:text-base"
+                                    className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-zinc-800 hover:bg-emerald-600 text-white font-medium transition-all duration-300 group/btn text-sm sm:text-base mt-auto"
                                 >
                                     View Details
                                     <ArrowUpRight size={18} className="group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
