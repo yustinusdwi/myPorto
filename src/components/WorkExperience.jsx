@@ -11,7 +11,7 @@ const WorkExperience = () => {
             logo: pt_imss, 
             period: 'June 2025 - August 2025', 
             location: 'Madiun, Indonesia',
-            description: 'Create, developing, and maintaining scalable web applications full-stack for project monitoring dashboard using laravel and mysql, ensuring seamless user experience and data integrity.',
+            description: 'Create, developing, and maintaining scalable web applications full-stack for project monitoring dashboard using laravel and mysql, ensuring seamless user experience and data integrity',
             tags: ['Laravel', 'MySQL', 'Cpanel', 'PHP'],
             color: 'from-blue-500 to-cyan-400'
         },
@@ -21,7 +21,7 @@ const WorkExperience = () => {
             logo: telkom, 
             period: 'July 2025 - Present', 
             location: 'Bandung, Indonesia',
-            description: 'Coordinating laboratory practicum activities by preparing course materials and software for Computer Networks and Object-Oriented Programming across four departments, collaborating with lecturers to design semester-long practicum modules, maintaining laboratory hardware, contributing operational improvement ideas, and representing the laboratory in public relations activities.',
+            description: 'Coordinating laboratory practicum activities by preparing course materials and software for Computer Networks and Object-Oriented Programming across four departments, collaborating with lecturers to design semester-long practicum modules, maintaining laboratory hardware, contributing operational improvement ideas, and representing the laboratory in public relations activities',
             tags: ['Teaching', 'Python', 'Algorithms', 'OOP', 'Java', 'Excel', 'Hardware', 'Data Structures', 'Operating Systems'],
             color: 'from-red-500 to-orange-500'
         },
@@ -29,10 +29,20 @@ const WorkExperience = () => {
             role: 'Assistant Lecturer', 
             company: 'Informatics Faculty Telkom University', 
             logo: telkom, 
-            period: 'Sept 2025 - Jan 2025', 
+            period: 'Sept 2024 - Jan 2025', 
             location: 'Bandung, Indonesia',
-            description: 'Assisted in teaching data structures course for Informatics students, conducted exam preparation, provided guidance on programming assignments, and supported students in understanding core OOP concepts and applications.',
+            description: 'Assisted in teaching data structures course for Informatics students, conducted exam preparation, provided guidance on programming assignments, and supported students in understanding core OOP concepts and applications',
             tags: ['Teaching', 'Python', 'Algorithms', 'OOP', 'Java', 'Excel', 'Hardware', 'Data Structures', 'Operating Systems'],
+            color: 'from-red-500 to-orange-500'
+        },
+        { 
+            role: 'Coordinator Practicum Assistant', 
+            company: 'Informatics Laboratory Telkom University', 
+            logo: telkom, 
+            period: 'July 2025 - Present', 
+            location: 'Bandung, Indonesia',
+            description: 'Coordinated the performance of all Computer Networks practicum assistants, including overseeing and standardizing the assessment of students’ lab work to ensure consistency and quality. Acted as the liaison between laboratory staff and practicum assistants, facilitating communication, resolving operational issues, and supporting the smooth delivery of practicum activities',
+            tags: ['Teaching', 'Analysis', 'Computer Networks','Excel'],
             color: 'from-red-500 to-orange-500'
         },
     ];
