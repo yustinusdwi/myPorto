@@ -36,7 +36,7 @@ const Hero = () => {
                             data-aos="fade-up"
                         >
                             <span className="text-2xl sm:text-4xl lg:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-amber-400 to-indigo-400 mt-3 block tracking-normal">
-                                Web Developer & Data Science
+                                Web Developer & Data Scientist
                             </span>
                         </h1>
 

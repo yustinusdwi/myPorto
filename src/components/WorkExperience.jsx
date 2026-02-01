@@ -39,7 +39,7 @@ const WorkExperience = () => {
             role: 'Coordinator Practicum Assistant', 
             company: 'Informatics Laboratory Telkom University', 
             logo: telkom, 
-            period: 'July 2025 - Present', 
+            period: 'July 2024 - Jan 2025', 
             location: 'Bandung, Indonesia',
             description: 'Coordinated the performance of all Computer Networks practicum assistants, including overseeing and standardizing the assessment of students’ lab work to ensure consistency and quality. Acted as the liaison between laboratory staff and practicum assistants, facilitating communication, resolving operational issues, and supporting the smooth delivery of practicum activities',
             tags: ['Teaching', 'Analysis', 'Computer Networks','Excel'],

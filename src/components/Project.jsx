@@ -15,7 +15,7 @@ const Projects = () => {
         },
         {
             title: 'myKOA',
-            category: 'Data Science & Web Development',
+            category: 'Data Scientist & Web Development',
             period: 'Feb 2025 - Jan 2026',
             description: 'An web application for Knee osteoarthritis severity grading classification',
             tech: ['streamlit', 'computer vision', 'deep learning', 'python'],
@@ -35,7 +35,7 @@ const Projects = () => {
         },
         {
             title: 'Pacific Food and Beverage Trade Data Visualization (PFTD 2.1)',
-            category: 'Data Science',
+            category: 'Data Scientist',
             period: 'July - November 2023',
             description: 'An data visualization system for Pacific Food and Beverage Trade Data using py and streamlit',
             tech: ['python', 'streamlit', 'data analytics', 'data visualization'],
@@ -63,17 +63,26 @@ const Projects = () => {
             github: 'https://github.com/yustinusdwi/IMPALfixed',
             color: 'from-purple-500 to-pink-500'
         }, 
-        {
-            title: 'BookWise',
-            category: 'Web Development',
-            period: 'Sept 2024 - Jan 2025',
-            description: 'An web application for library book management system, recommendation system and chatbot integration.',
-            tech: ['Go Lang', 'supabase', 'swagger'],
-            link: 'https://github.com/yustinusdwi/book-wise',
-            github: 'https://github.com/yustinusdwi/book-wise',
-            color: 'from-purple-500 to-pink-500'
-        }, 
-        
+            {
+                title: 'BookWise',
+                category: 'Web Development',
+                period: 'Sept 2024 - Jan 2025',
+                description: 'An web application for library book management system, recommendation system and chatbot integration.',
+                tech: ['Go Lang', 'supabase', 'swagger'],
+                link: 'https://github.com/yustinusdwi/book-wise',
+                github: 'https://github.com/yustinusdwi/book-wise',
+                color: 'from-purple-500 to-pink-500'
+            }, 
+            {
+                title: 'Garbage Classification',
+                category: 'Data Scientist',
+                period: 'Feb 2025 - May 2025',
+                description: 'An image classification system for garbage using deep learning and computer vision.',
+                tech: ['python', 'tensorflow', 'opencv', 'streamlit'],
+                link: 'https://github.com/yustinusdwi/Garbage-Classification',
+                github: 'https://github.com/yustinusdwi/Garbage-Classification',
+                color: 'from-purple-500 to-pink-500'
+            },
     ];
 
     return (
