@@ -80,7 +80,6 @@ const Hero = () => {
                                     className="w-10 h-10 object-contain drop-shadow-lg animate-pulse" 
                                 />
                                 <div>
-                                    <p className="text-gray-400 text-[10px] font-bold uppercase tracking-wider mb-0.5">Status</p>
                                     <p className="text-white text-sm font-bold leading-tight">I'm Open to Work</p>
                                 </div>
                             </div>
