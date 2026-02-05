@@ -2,6 +2,7 @@ import React from 'react';
 import { Briefcase, Calendar, MapPin, ArrowUpRight } from 'lucide-react';
 import pt_imss from '../assets/imss.png';
 import telkom from '../assets/iflab.png';
+import fif from '../assets/fif.png';
 
 const WorkExperience = () => {
     const experiences = [
@@ -28,7 +29,7 @@ const WorkExperience = () => {
         { 
             role: 'Assistant Lecturer', 
             company: 'Informatics Faculty Telkom University', 
-            logo: telkom, 
+            logo: fif, 
             period: 'Sept 2024 - Jan 2025', 
             location: 'Bandung, Indonesia',
             description: 'Assisted in teaching data structures course for Informatics students, conducted exam preparation, provided guidance on programming assignments, and supported students in understanding core OOP concepts and applications',
