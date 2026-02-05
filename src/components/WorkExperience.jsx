@@ -2,7 +2,7 @@ import React from 'react';
 import { Briefcase, Calendar, MapPin, ArrowUpRight } from 'lucide-react';
 import pt_imss from '../assets/imss.png';
 import telkom from '../assets/iflab.png';
-import fif from '../assets/fif.png';
+import fif from '../assets/FIF.png';
 
 const WorkExperience = () => {
     const experiences = [
